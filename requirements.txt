@@ -1,0 +1,49 @@
+absl-py==2.0.0
+Bottleneck @ file:///opt/conda/conda-bld/bottleneck_1657175564434/work
+cachetools==5.3.2
+certifi==2023.11.17
+charset-normalizer==3.3.2
+cloudpickle==3.0.0
+cycler @ file:///tmp/build/80754af9/cycler_1637851556182/work
+google-auth==2.24.0
+google-auth-oauthlib==1.0.0
+grpcio==1.59.3
+gym==0.26.2
+gym-notices==0.0.8
+idna==3.6
+importlib-metadata==7.0.0
+joblib @ file:///croot/joblib_1685113087166/work
+kiwisolver @ file:///opt/conda/conda-bld/kiwisolver_1653292039266/work
+Markdown==3.5.1
+MarkupSafe==2.1.3
+matplotlib==3.1.3
+mkl-fft==1.3.0
+mkl-random==1.1.0
+mkl-service==2.3.0
+numexpr @ file:///tmp/build/80754af9/numexpr_1614798506606/work
+numpy @ file:///tmp/build/80754af9/numpy_and_numpy_base_1603570489231/work
+oauthlib==3.2.2
+pandas==1.4.4
+Pillow==9.0.1
+protobuf==4.25.1
+pyasn1==0.5.1
+pyasn1-modules==0.3.0
+pyparsing @ file:///opt/conda/conda-bld/pyparsing_1661452539315/work
+python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+pytz @ file:///croot/pytz_1695131579487/work
+requests==2.31.0
+requests-oauthlib==1.3.1
+rsa==4.9
+scikit-learn @ file:///croot/scikit-learn_1676911643119/work
+scipy @ file:///tmp/build/80754af9/scipy_1616703172749/work
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+tensorboard==2.14.0
+tensorboard-data-server==0.7.2
+tensorboardX==2.5
+threadpoolctl @ file:///Users/ktietz/demo/mc3/conda-bld/threadpoolctl_1629802263681/work
+torch==1.5.1
+torchvision==0.6.0a0+35d732a
+tornado @ file:///tmp/build/80754af9/tornado_1606942300299/work
+urllib3==2.1.0
+Werkzeug==3.0.1
+zipp==3.17.0
