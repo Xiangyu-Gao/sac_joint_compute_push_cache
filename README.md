@@ -88,14 +88,14 @@ sac_joint_compute_push_cache Args
 
 optional arguments:
   -h, --help            show this help message and exit
-  --env-name ENV_NAME   Mujoco Gym environment (default: HalfCheetah-v2)
+  --env-name ENV_NAME   Wireless Comm environment (default: MultiTaskCore)
   --exp-case EXP_CASE   Evaluation Algorithm (default: case3)
   --policy POLICY       Policy Type: Gaussian | Deterministic (default:
                         Gaussian)
   --eval EVAL           Evaluates a policy a policy every 10 episode (default:
                         True)
   --gamma G             discount factor for reward (default: 0.99)
-  --tau G               target smoothing coefficient(τ) (default: 5e-3)
+  --tau G               target smoothing coefficient(τ) (default: 0.005)
   --lr G                learning rate (default: 3e-4)
   --alpha G             Temperature parameter α determines the relative
                         importance of the entropy term against the reward
@@ -104,14 +104,14 @@ optional arguments:
                         Automaically adjust α (default: False)
   --seed N              random seed (default: 123456)
   --batch_size N        batch size (default: 256)
-  --num_steps N         maximum number of steps (default: 1e6)
+  --num_steps N         maximum number of steps (default: 5000001)
   --hidden_size N       hidden size (default: 256)
   --updates_per_step N  model updates per simulator step (default: 1)
-  --start_steps N       Steps sampling random actions (default: 1e4)
+  --start_steps N       Steps sampling random actions (default: 10000)
   --target_update_interval N
                         Value target update per no. of updates per step
-                        (default: 1)
-  --replay_size N       size of replay buffer (default: 1e6)
+                        (default: 1000)
+  --replay_size N       size of replay buffer (default: 1000000)
   --cuda                run on CUDA (default: False)
 ```
 
