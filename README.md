@@ -53,7 +53,7 @@ usage: main.py [-h] [--env-name ENV_NAME] [--exp-case EXP_CASE] [--policy POLICY
 Note: There is no need for setting Temperature(`--alpha`) if `--automatic_entropy_tuning` is True.
 
 #### For Running proposed PTDFC Algorithm
-***PTDFC***: Proactive Transmission and Dynamic-computing-Frequency reactive service with
+* ***PTDFC***: Proactive Transmission and Dynamic-computing-Frequency reactive service with
 Cache
 ```
 python main.py --automatic_entropy_tuning True --target_update_interval 1000 --lr 1e-4 --exp-case case3 --cuda
