@@ -7,7 +7,6 @@ from sac.sac import SAC
 from torch.utils.tensorboard import SummaryWriter
 from sac.replay_memory import ReplayMemory
 from envs.MultiTaskCore import MultiTaskCore
-# from envs.MultiTaskFreq import MultiTaskFreq
 from tool.data_loader import load_data
 from config import system_config
 
@@ -58,10 +57,9 @@ task_utils = load_data('./data/task'+str(task_num)+'_utils.csv')
 # task_utils = load_data('./data/task'+str(task_num)+'_utils_output15000.csv')
 task_set_ = task_utils.tolist()
 At = np.squeeze(load_data('data/samples'+str(task_num)+'_maxp'+str(maxp)+'.csv'))
-channel_snrs = load_data('./data/one_snrs.csv')
-# channel_snrs = load_data('./data/dynamic_snrs.csv')
+# channel_snrs = load_data('./data/one_snrs.csv')
+channel_snrs = load_data('./data/dynamic_snrs.csv')
 
-# env = MultiTaskCore(init_sys_state=[0] * (2 * 4) + [1], task_set=task_set_, requests=At, exp_case=args.exp_case)
 env = MultiTaskCore(init_sys_state=[0] * (2 * task_num) + [1], task_set=task_set_, requests=At,
                     channel_snrs=channel_snrs, exp_case=args.exp_case)
 # env.seed(args.seed)
@@ -129,7 +127,6 @@ for i_episode in itertools.count(1):
     print("Episode: {}, total numsteps: {}, episode steps: {}, reward: {}".format(i_episode, total_numsteps,
                                                                                   episode_steps,
                                                                                   round(episode_reward, 2)))
-    # input()
     eval_freq = 10
     # eval_freq = 1
     if i_episode % eval_freq == 0 and args.eval is True:

@@ -7,9 +7,9 @@ chip_config ={
 
 system_config = {
     'M': 8,     # number of computation cores, default 8
-    'F': 4,     # number of tasks, default 4
+    'F': 4,     # number of tasks, default 4, options [4, 6, 8, 10]
     'FQ': 8,    # number of computing frequency options
-    'maxp': 70,     # maximum markov chain prob, percentage, default 70%
+    'maxp': 70,     # maximum markov chain prob, percentage, default 70%. options [50, 60, 70, 80]
     'weight': 1,    # objective weight, default 1
 }
 
