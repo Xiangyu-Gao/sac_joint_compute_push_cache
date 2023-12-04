@@ -62,30 +62,27 @@ python main.py --automatic_entropy_tuning True --target_update_interval 1000 --l
 #### For Running Baselines
 Baselines:
 * ***DFC***: Dynamic-computing-Frequency reactive service with Cache
-* ***DFNC***: Dynamic-computing-Frequency reactive service with No
-Cache:
+* ***DFNC***: Dynamic-computing-Frequency reactive service with No Cache
 * ***MFU-LFU***: Most-Frequently-Used proactive transmission and Least-Frequently-Used cache replacement
 * ***MRU-LRU***: Most-Recently-Used proactive transmission and Least-Recently-Used cache replacement
 
 Use the specific value for `--exp-case` argument
 
-| Algorithms | `--env-case` |
-|------------|-------------|
-| PTDFC      | case3       |
-| DFC        | case4       |
-| DFNC       | case2       |
-| MFU-LFU    | case7       |
-| MRU-LRU    | case6       |
+| Algorithms | `--exp-case` |
+|------------|--------------|
+| PTDFC      | case3        |
+| DFC        | case4        |
+| DFNC       | case2        |
+| MFU-LFU    | case7        |
+| MRU-LRU    | case6        |
 
 #### For Visualizing Convergence Via Tensorboard
 ```
 tensorboard --logdir=runs --host localhost --port 8088
 ```
-#python main.py --alpha 0.2 --target_update_interval 1000 --lr 1e-4 --exp-case case4 --cuda
 
 #### Usage of Other Arguments
-### Arguments
-------------
+
 ```
 sac_joint_compute_push_cache Args
 
