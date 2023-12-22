@@ -13,15 +13,6 @@ A Deep-Reinforcement Learning Approach for activity optimization in mobile edge 
          year={2023}, volume={}, number={}, pages={1-1}, 
          doi={10.1109/JIOT.2023.3323433}}
 
-> [**Soft Actor-Critic Learning-Based Joint Computing, Pushing, and Caching Framework in MEC Networks**](https://arxiv.org/pdf/2305.12099.pdf)            
-> Xiangyu Gao, Yaping Sun, Hao Chen, Xiaodong Xu, and Shuguang Cui <br />
-> *arXiv technical report ([arXiv 2305.12099](https://arxiv.org/abs/2305.12099))*
-> 
-    @misc{gao2023soft, author={Xiangyu Gao and Yaping Sun and Hao Chen and Xiaodong Xu and Shuguang Cui},
-         title={Soft Actor-Critic Learning-Based Joint Computing, Pushing, and Caching Framework in MEC Networks},
-         year={2023}, eprint={2305.12099}, archivePrefix={arXiv}, primaryClass={cs.IT}
-}
-
 ## Update
 ***(Dec. 3, 2023) Release the source code and sample data.***
 
