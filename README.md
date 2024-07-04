@@ -115,9 +115,6 @@ This project is not possible without multiple great opensourced codebases. We li
 
 * [pytorch-soft-actor-critic](https://github.com/pranz24/pytorch-soft-actor-critic)
 
-## Contact
-Contact *Xiangyu Gao* ([xygao@uw.edu](mailto:xygao@uw.edu)). Questions and suggestions are welcome.
-
 
 
 
